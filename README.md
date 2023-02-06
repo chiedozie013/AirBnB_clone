@@ -170,4 +170,4 @@ The recognizable commands by the interpreter are the following:
 ## Authors
 James Chiedoze James - chiedozie013@gmail.com
   
-Elizabeth Nduka - 
+Elizabeth Nduka - ndukaelizabeth26@gmail.com
