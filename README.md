@@ -147,6 +147,8 @@ The recognizable commands by the interpreter are the following:
 | -----	| -----
 | count	| Retrieve the number of instances of a class.
 | Usage	| <class name>.count()
+| Command | Description
+| Quit or EDF | Exits the program
   
 ## Authors
 James Chiedoze James - chiedozie013@gmail.com
