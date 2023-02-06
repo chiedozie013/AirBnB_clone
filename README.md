@@ -62,7 +62,7 @@ Interactive and Non-interactive.
 
 In Interactive mode, the console will display a prompt (hbnb) indicating that the user can write and execute a command. After the command is run, the prompt will appear again a wait for a new command. This can go indefinitely as long as the user does not exit the program.
 
-$ ./console.py
+<!-- $ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -93,7 +93,7 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 (hbnb) 
-$
+$ -->
   
 ## Format of Command Input
 In order to give commands to the console, these will need to be piped through an echo in case of Non-interactive mode.
@@ -146,4 +146,4 @@ Usage	update <class name> <id> <attribute name> "<attribute value>" ---or--- <cl
 -----	-----
 count	Retrieve the number of instances of a class.
 Usage	<class name>.count()
-Author
+## Author
