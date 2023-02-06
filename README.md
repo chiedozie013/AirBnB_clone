@@ -124,7 +124,7 @@ user@ubuntu:~/AirBnB$ ./console.py
 The recognizable commands by the interpreter are the following:
 
 | Command | Description
-|:-------: | :----------: |
+|------- | ---------- |
 | Quit or EDF | Exits the program
 | Usage | By itself
 | -----	| -----
