@@ -17,18 +17,19 @@ Some of the commands available are:
 * create
 * update
 * destroy
-count
+* count
+
 And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
 
-Creating new objects (ex: a new User or a new Place)
-Retrieving an object from a file, a database etc…
-Doing operations on objects (count, compute stats, etc…)
-Updating attributes of an object
-Destroying an object
-How to start it
+* Creating new objects (ex: a new User or a new Place)
+* Retrieving an object from a file, a database etc…
+* Doing operations on objects (count, compute stats, etc…)
+* Updating attributes of an object
+* Destroying an object
+## How to start it
 These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
 
-Installing
+## Installing
 You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
 
 git clone https://github.com/jzamora5/AirBnB_clone.git
@@ -54,7 +55,7 @@ models/place.py: Place class that inherits from BaseModel
 
 models/review.py: Review class that inherits from BaseModel
 
-How to use it
+## How to use it
 It can work in two different modes:
 
 Interactive and Non-interactive.
@@ -93,12 +94,13 @@ Documented commands (type help <topic>):
 EOF  help  quit
 (hbnb) 
 $
-Format of Command Input
+  
+## Format of Command Input
 In order to give commands to the console, these will need to be piped through an echo in case of Non-interactive mode.
 
 In Interactive Mode the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the CTRL + D combination, CTRL + C, or the command quit or EOF.
 
-Arguments
+## Arguments
 Most commands have several options or arguments that can be used when executing the program. In order for the Shell to recognize those parameters, the user must separate everything with spaces.
 
 Example:
@@ -111,17 +113,13 @@ user@ubuntu:~/AirBnB$ ./console.py
 
 or
 
-user@ubuntu:~/AirBnB$ ./console.py
-(hbnb) create BaseModel
-49faff9a-6318-451f-87b6-910505c55907
-user@ubuntu:~/AirBnB$ ./console.py
-
 user@ubuntu:~/AirBnB$ ./console.py $ echo "create BaseModel" | ./console.py
 (hbnb)
 e37ebcd3-f8e1-4c1f-8095-7a019070b1fa
 (hbnb)
 user@ubuntu:~/AirBnB$ ./console.py
-Available commands and what they do
+  
+## Available commands and what they do
 The recognizable commands by the interpreter are the following:
 
 Command	Description
