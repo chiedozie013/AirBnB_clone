@@ -1,21 +1,22 @@
 # AirBnB_Clone Project
 ![68747470733a2f2f7777772e706e676974656d2e636f6d2f70696d67732f6d2f3133322d313332323132355f7472616e73706172656e742d6261636b67726f756e642d616972626e622d6c6f676f2d68642d706e672d646f776e6c6f61642e706e67](https://user-images.githubusercontent.com/110996482/217071703-a1983fb7-8fd3-44a1-b943-10d371cb9b74.png)
-Project Description
+
+## Project Description
 This is the first part of the AirBnB clone project where we worked on the backend of the project whiles interfacing it with a console application with the help of the cmd module in python.
 
 Data (python objects) generated are stored in a json file and can be accessed with the help of the json module in python
 
-Description of the command interpreter:
+## Description of the command interpreter:
 The interface of the application is just like the Bash shell except that this has a limited number of accepted commands that were solely defined for the purposes of the usage of the AirBnB website.
 
 This command line interpreter serves as the frontend of the web app where users can interact with the backend which was developed with python OOP programming.
 
 Some of the commands available are:
 
-show
-create
-update
-destroy
+* show
+* create
+* update
+* destroy
 count
 And as part of the implementation of the command line interpreter coupled with the backend and file storage system, the folowing actions can be performed:
 
