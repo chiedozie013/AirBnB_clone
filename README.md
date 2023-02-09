@@ -167,7 +167,3 @@ The recognizable commands by the interpreter are the following:
 | **count** | Retrieve the number of instances of a class.  |
 | **Usage** | **<class name\>.count()** |
 
-## Authors
-James Chiedoze James - chiedozie013@gmail.com
-  
-Elizabeth Nduka - ndukaelizabeth26@gmail.com
