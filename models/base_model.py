@@ -38,3 +38,9 @@ class BaseModel:
 
         return "[{}] ({}) {}".\
                 format(type(self).__name__, self.id, self.__dict__)
+
+    def save(self):
+        """updates the public instance attribute updated_at"""
+
+        self.updated_at = datetime.now()
+        storage.save()
