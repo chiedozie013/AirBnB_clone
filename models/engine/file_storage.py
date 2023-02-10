@@ -16,11 +16,8 @@ class FileStorage:
         return FileStorage.__objects
 
     def new(self, obj):
-
-                   """sets in __objects the obj with key <obj class name>.id"""
-
-                           key = "{}.{}".format(type(obj).__name__, obj.id)
-
-                                   FileStorage.__objects[key] = obj
+        """sets in __objects the obj with key <obj class name>.id"""
+        key = "{}.{}".format(type(obj).__name__, obj.id)
+        FileStorage.__objects[key] = obj
 
 
